@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from "./components/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <section className="h-screen w-full bg-main">
+        <header className="fixed top-0 left-0 w-full z-10 py-4">
+          <div className="max-w-[1340px] mx-auto px-4">
+            <Navbar />
+          </div>
+        </header>
+
+        <main className="max-w-[1300px] mx-auto px-4 pt-24">
+          <h2 className="text-2xl font-semibold">Bem-vindo ao Sonora!</h2>
+        </main>
+      </section>
+      <section className="bg-white">
+        <div className="max-w-[1340px] mx-auto px-4 py-12">
+          <p className="text-lg">
+            Aqui começa o conteúdo com fundo branco, após o scroll.
+          </p>
+        </div>
+      </section>
+      <footer className="bg-white">
+        <div className="max-w-[1340px] mx-auto px-4 py-6"></div>
+      </footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
