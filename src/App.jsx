@@ -1,27 +1,28 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <>
-      <section className="h-screen w-full bg-main">
-        <header className="fixed top-0 left-0 w-full z-10 py-4">
+      <section className="relative w-full bg-main min-h-screen">
+        <header className="fixed top-0 left-0 w-full z-10 py-4 bg-main/90 backdrop-blur-sm">
           <div className="max-w-[1340px] mx-auto px-4">
             <Navbar />
           </div>
         </header>
 
-        <main className="max-w-[1300px] mx-auto px-4 pt-24">
-          <h2 className="text-2xl font-semibold">Bem-vindo ao Sonora!</h2>
-        </main>
-      </section>
-      <section className="bg-white">
-        <div className="max-w-[1340px] mx-auto px-4 py-12">
-          <p className="text-lg">
-            Aqui começa o conteúdo com fundo branco, após o scroll.
-          </p>
+        {/* Espaço para evitar que conteúdo fique atrás da navbar fixa */}
+        <div className="pt-[64px] max-w-[1300px] mx-auto px-4 font-inter">
+          <section className="flex items-center justify-center min-h-screen">
+            <Hero />
+          </section>
         </div>
       </section>
-      <footer className="bg-white">
+      <section className="bg-dark">
+        <p>aa</p>
+      </section>
+
+      <footer className="bg-dark">
         <div className="max-w-[1340px] mx-auto px-4 py-6"></div>
       </footer>
     </>

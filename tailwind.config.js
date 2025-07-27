@@ -3,6 +3,10 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        sora: ["Sora", "sans-serif"],
+      },
       colors: {
         light: "#FAF9F6",
         dark: "#141313",
