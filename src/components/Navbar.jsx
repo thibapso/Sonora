@@ -9,7 +9,7 @@ export default function Navbar() {
       >
         <img
           className="w-6 h-6"
-          src="src/assets/public/logo.svg"
+          src="/assets/public/logo.svg"
           alt="sonora logo"
         />
         <h1 className="font-sora text-2xl text-light hover:text-stone-100 cursor-pointer font-bold tracking-wide">

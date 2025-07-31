@@ -33,7 +33,7 @@ export default function Operation() {
             <div className="rounded-md bg-rose-100 w-14 h-14 flex items-center justify-center">
               <img
                 className="w-6 h-6"
-                src={`src/assets/private/experience/${icon}`}
+                src={`/assets/public/experience/${icon}`}
                 alt={title}
               />
             </div>
@@ -54,7 +54,7 @@ export default function Operation() {
             <div className="rounded-md bg-rose-100 w-14 h-14 flex items-center justify-center">
               <img
                 className="w-6 h-6"
-                src={`src/assets/private/experience/${icon}`}
+                src={`/assets/public/experience/${icon}`}
                 alt={title}
               />
             </div>

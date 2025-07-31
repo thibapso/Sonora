@@ -30,7 +30,7 @@ export default function Operation() {
             <div className="rounded-full bg-rose-100 w-14 h-14 flex items-center justify-center mb-4">
               <img
                 className="w-6 h-6"
-                src={`src/assets/private/operation/${icon}`}
+                src={`/assets/public/operation/${icon}`}
                 alt={title}
               />
             </div>
