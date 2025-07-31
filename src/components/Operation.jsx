@@ -5,7 +5,7 @@ export default function Operation() {
         Uma Jornada Musical
       </h3>
 
-      <div className="flex flex-col md:flex-row gap-6 w-full justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full">
         {[
           {
             icon: "girl.svg",
@@ -25,12 +25,12 @@ export default function Operation() {
         ].map(({ icon, title, desc }) => (
           <div
             key={title}
-            className="bg-light flex-1 rounded-lg px-6 py-4 flex flex-col items-start text-start max-w-[350px] w-full md:w-auto"
+            className="bg-light rounded-lg px-6 py-4 flex flex-col items-start text-start max-w-[350px] w-full mx-auto h-full"
           >
             <div className="rounded-full bg-rose-100 w-14 h-14 flex items-center justify-center mb-4">
               <img
                 className="w-6 h-6"
-                src={`src/assets/public/operation/${icon}`}
+                src={`src/assets/private/operation/${icon}`}
                 alt={title}
               />
             </div>

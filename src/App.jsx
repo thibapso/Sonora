@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Operation from "./components/Operation";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -32,6 +33,14 @@ function App() {
           >
             <div className="w-full max-w-[1300px] h-full mx-auto flex items-center justify-center">
               <Operation />
+            </div>
+          </section>
+          <section
+            className="bg-rose-50 w-full flex items-center justify-center py-16 md:py-32 px-4 md:px-8 lg:px-12 font-inter"
+            id="experiencia"
+          >
+            <div>
+              <Experience />
             </div>
           </section>
         </main>
