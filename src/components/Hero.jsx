@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <div className="text-light md:flex flex-row items-center justify-between rounded-md py-5 px-4 md:px-7 w-full md:w-[1300px] mx-auto">
       <div className="flex flex-col gap-6 items-center text-center md:items-start md:text-left">
-        <div className="w-fit bg-glass backdrop-blur-sm border border-glass-stroke flex items-center gap-3 text-xl text-stone-700 font-semibold px-4 py-2 rounded-full mx-auto md:mx-0">
+        <div className="w-fit bg-glass backdrop-blur-sm border border-glass-stroke flex items-center gap-3 text-xl text-stone-700 font-semibold px-4 py-2 rounded-full mx-auto md:mx-0 select-none">
           <img
             src="src/assets/public/headphone.png"
             alt="emoji de headphone"

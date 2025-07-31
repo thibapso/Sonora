@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Operation from "./components/Operation";
 
 function App() {
   return (
@@ -23,6 +24,14 @@ function App() {
           >
             <div className="w-full max-w-[900px] md:max-w-[1100px] lg:max-w-[1300px] mx-auto">
               <About />
+            </div>
+          </section>
+          <section
+            className="bg-rose-50 w-full flex items-center justify-center py-16 md:py-32 px-4 md:px-8 lg:px-12 font-inter"
+            id="funcionamento"
+          >
+            <div className="w-full max-w-[1300px] h-full mx-auto flex items-center justify-center">
+              <Operation />
             </div>
           </section>
         </main>

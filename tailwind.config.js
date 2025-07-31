@@ -9,7 +9,7 @@ module.exports = {
       },
       colors: {
         light: "#FAF9F6",
-        dark: "#141313",
+        dark: "#1c1a1b",
         "light-secondary": "rgba(250, 249, 246, 0.25)",
         "dark-secondary": "rgba(18, 18, 18, 0.25)",
         glass: "rgba(250, 249, 246, 0.10)",

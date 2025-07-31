@@ -2,7 +2,7 @@ import Button from "./Button";
 
 export default function Navbar() {
   return (
-    <nav className="bg-glass backdrop-blur-sm border border-glass-stroke px-5 py-5 flex justify-between items-center w-full h-14 rounded-lg">
+    <div className="bg-glass backdrop-blur-md border border-glass-stroke px-5 py-5 flex justify-between items-center w-full h-14 rounded-lg">
       <a
         href="#"
         className="flex gap-1 items-center transition-transform duration-300 ease-in-out hover:scale-105"
@@ -24,15 +24,18 @@ export default function Navbar() {
         >
           <li>Sobre</li>
         </a>
-        <li className="text-light hover:text-stone-100 cursor-pointer transition-colors">
-          Funcionamento
-        </li>
+        <a
+          className="text-light hover:text-stone-100 cursor-pointer transition-colors"
+          href="#funcionamento"
+        >
+          <li>Funcionamento</li>
+        </a>
         <li className="text-light hover:text-stone-100 cursor-pointer transition-colors">
           Experiência
         </li>
       </ul>
 
       <Button title="Entrar"></Button>
-    </nav>
+    </div>
   );
 }

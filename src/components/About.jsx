@@ -1,7 +1,7 @@
 export default function About() {
   return (
-    <main className="text-white w-full max-w-[900px] md:max-w-[1100px] lg:max-w-[1300px] flex flex-col items-center px-4 md:px-8 lg:px-12">
-      <div className="w-full max-w-[900px] text-center pt-8">
+    <div className="text-white w-full max-w-[900px] md:max-w-[1100px] lg:max-w-[1300px] flex flex-col items-center py-14 px-4 md:px-8 lg:px-12">
+      <div className="w-full max-w-[900px] text-center pt-2">
         <h3 className="text-2xl md:text-3xl font-semibold mb-2">
           Sinta a Música, Viva o Momento
         </h3>
@@ -45,6 +45,6 @@ export default function About() {
           </p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
