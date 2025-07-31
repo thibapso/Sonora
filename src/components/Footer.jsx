@@ -8,7 +8,7 @@ export default function Footer() {
         >
           <img
             className="w-6 h-6"
-            src="/assets/public/logo.svg"
+            src="/logo.svg"
             alt="sonora logo"
           />
           <h4 className="font-sora text-2xl text-light hover:text-stone-100 cursor-pointer font-bold tracking-wide">

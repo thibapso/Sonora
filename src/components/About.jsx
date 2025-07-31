@@ -13,7 +13,7 @@ export default function About() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-[900px] mt-8">
         <div className="sm:col-span-2 lg:col-span-2 min-h-[208px] rounded-md overflow-hidden border border-glass-stroke">
           <img
-            src="/assets/public/ouvindo.png"
+            src="/about/ouvindo.png"
             alt="Pessoa ouvindo música"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 ease-in-out"
           />
@@ -22,7 +22,7 @@ export default function About() {
         <div className="min-h-[208px] rounded-md border border-glass-stroke flex justify-center items-center">
           <img
             className="w-24 h-24 duration-300 ease-in-out hover:scale-105"
-            src="/assets/public/spotify.png"
+            src="/about/spotify.png"
             alt="spotify logo"
           />
         </div>
@@ -30,7 +30,7 @@ export default function About() {
         <div className="min-h-[208px] rounded-md border border-glass-stroke flex justify-center items-center">
           <img
             className="w-24 h-24 duration-300 ease-in-out hover:scale-105"
-            src="/assets/public/logo.svg"
+            src="/logo.svg"
             alt="sonora logo"
           />
         </div>
