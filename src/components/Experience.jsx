@@ -38,7 +38,7 @@ export default function Operation() {
               />
             </div>
             <div>
-              <h4 className="font-semibold">{title}</h4>
+              <h4 className="font-semibold text-xs sm:text-base">{title}</h4>
             </div>
           </div>
         ))}
@@ -59,7 +59,7 @@ export default function Operation() {
               />
             </div>
             <div>
-              <h4 className="font-semibold">{title}</h4>
+              <h4 className="font-semibold text-xs sm:text-base">{title}</h4>
             </div>
           </div>
         ))}

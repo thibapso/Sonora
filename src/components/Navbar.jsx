@@ -18,24 +18,30 @@ export default function Navbar() {
       </a>
 
       <ul className="hidden md:flex gap-6 text-base font-medium">
-        <a
-          className="text-light hover:text-stone-100 cursor-pointer transition-colors"
-          href="#sobre"
-        >
-          <li>Sobre</li>
-        </a>
-        <a
-          className="text-light hover:text-stone-100 cursor-pointer transition-colors"
-          href="#funcionamento"
-        >
-          <li>Funcionamento</li>
-        </a>
-        <a
-          className="text-light hover:text-stone-100 cursor-pointer transition-colors"
-          href="#experiencia"
-        >
-          <li>Experiência</li>
-        </a>
+        <li>
+          <a
+            className="text-light hover:text-stone-100 cursor-pointer transition-colors"
+            href="#sobre"
+          >
+            Sobre
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-light hover:text-stone-100 cursor-pointer transition-colors"
+            href="#funcionamento"
+          >
+            Funcionamento
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-light hover:text-stone-100 cursor-pointer transition-colors"
+            href="#experiencia"
+          >
+            Experiência
+          </a>
+        </li>
       </ul>
 
       <Button title="Entrar"></Button>

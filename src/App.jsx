@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Operation from "./components/Operation";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -46,8 +47,11 @@ function App() {
         </main>
       </div>
 
-      <footer className="bg-dark">
-        <div className="max-w-[1340px] mx-auto px-4 py-6"></div>
+      <footer
+        className="bg-dark w-full flex items-center justify-center py-4 md:py-8 px-4 md:px-8 lg:px-12 font-inter"
+        id="experiencia"
+      >
+        <Footer />
       </footer>
     </>
   );
