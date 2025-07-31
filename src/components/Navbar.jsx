@@ -30,9 +30,12 @@ export default function Navbar() {
         >
           <li>Funcionamento</li>
         </a>
-        <li className="text-light hover:text-stone-100 cursor-pointer transition-colors">
-          Experiência
-        </li>
+        <a
+          className="text-light hover:text-stone-100 cursor-pointer transition-colors"
+          href="#experiencia"
+        >
+          <li>Experiência</li>
+        </a>
       </ul>
 
       <Button title="Entrar"></Button>

@@ -28,7 +28,7 @@ function App() {
             </div>
           </section>
           <section
-            className="bg-rose-50 w-full flex items-center justify-center py-16 md:py-32 px-4 md:px-8 lg:px-12 font-inter"
+            className="bg-rose-50 w-full flex items-center justify-center py-14 md:py-28 px-4 md:px-8 lg:px-12 font-inter"
             id="funcionamento"
           >
             <div className="w-full max-w-[1300px] h-full mx-auto flex items-center justify-center">
@@ -36,10 +36,10 @@ function App() {
             </div>
           </section>
           <section
-            className="bg-rose-50 w-full flex items-center justify-center py-16 md:py-32 px-4 md:px-8 lg:px-12 font-inter"
+            className="bg-rose-50 w-full flex items-center justify-center py-16 md:py-30 px-4 md:px-8 lg:px-12 font-inter"
             id="experiencia"
           >
-            <div>
+            <div className="w-full max-w-[1300px] h-full mx-auto flex items-center justify-center">
               <Experience />
             </div>
           </section>
