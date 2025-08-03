@@ -28,7 +28,7 @@ export default function Operation() {
             className="bg-light rounded-lg px-6 py-4 flex flex-col items-start text-start max-w-[350px] w-full mx-auto h-full"
           >
             <div className="rounded-full bg-rose-100 w-14 h-14 flex items-center justify-center mb-4">
-              <img className="w-6 h-6" src={`/operation/${icon}`} alt={title} />
+              <img className="w-6 h-6" src={`images/operation/${icon}`} alt={title} />
             </div>
             <div>
               <h4 className="font-semibold mb-2">{title}</h4>
